@@ -65,7 +65,7 @@
 	background-color: yellow;
 }
 div {
-  height: 55px;
+  height: 100px;
   border: 1px solid red;
 }
 .row:before {
@@ -78,6 +78,22 @@ div {
   content: "";
   clear: both;
 } 
+ul {
+	list-style: none;
+
+}
+li {
+		margin-bottom: 40px;
+}
+.nav {
+	width: calc(1/12*100%);
+	right: 8px;
+	background-color: white;
+	position: fixed;
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+}
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
